@@ -1,0 +1,107 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=dataset-series-layout-by&decal=1&theme=dark&code=PYBwLglsB2AEC8sDeAoWsA2BTA5l6AJgFzIC-ANGrGMMBpCCUhVQQIZhsDOWYTV6LsACuAJwDGWEgG0B6WNIDk4kdDCiAnovKxFAMWHRxkGGwyxuXCDmgBbfGG26ACnQiRxZ2BGhdIYYRNfJ0UAQQJbHwg_UQ4IADcsb19_QKhgnX1oz3MfP3c0mC4Q5zZRDwgQOJgLQgtxFUNOACMIDHctTIAVYE5zLhVRLEUAXUp5eSUAITZoHAw2AiwuAAsnABYAOgBGAGYdXc2ABgBOA82AJgB2HS2rgDZz9bPYbZPNq_WxuXQlAFEwCsoCAIGwnBcPutzkcbrBDhdtjoIesoXCdjptlsAKz3b4TX6KADiK1mYPO21hhyusLuj1gEJOL22m3WiNeWJZePxSgAkoRQeDLjTNnStut9rAthdzgAOGUY967GVcia8wgwZYC26bGUvCFHVGHe7SyXHVHMo5YjEc-5fcbcxQAaXwGjJr2OEuRbIhuxNhyO8rRuzp2whFxVk0UAFlgAAvNi2VoAR2Ew3OVz9IsNm2D5L1H1h23uIuV9tVilKAGtopxoBtLi8tkdPTs6WGTWGQxyTriy5HnED2iAQdBlvXjecsYGpdPNoyMTtA9sZSKsRGCQAlADus3YgtDSMubcuVvpxzp8KZDNLPwUigAyvhcGZBSdA4cZRedWzDrmzzKTSLHVdnXO971ECBYAAGVmSs3S2W1D29EV8xRQ85QxO41z7AkulmeNoC1d17kLHNAwZaFM22NlqOOG98TvAAtBNWjdZkM0PedYCOb9D1hHj1kDFcrhGORRPQFh0BQKgAA9Qhk6IZDkJBqA0EApF0TwwFwYBNCcHAIIIPklhkkgjlgST5BUsA1I05QOB0vSdAMiAjMILBTNeHQ2AUrgYOaLAMCYWBRF6BySHWLELIkqguQ0eTFIUFSXLckyzIsnRksM4yPJIbYLK5FKZBU5pehoWwSEULEsQAUkUDLkGoUBKuquqCvtHgIOWJSJgAel62AuhWZYkk6iBlgsIZkmoYbYAAMwgUQ_FgFLNmU1T1Mq5oyicMblhgjQRDAKYNEq0KtycdwsFse8bOwYKVAwXTKoAYhlI49D0UIsXq0gMvWmzNt0bbRF2rAur8thDsCE6zuAC6dCum67o0lTHue3QXqOI4ABEcc-37_omazbK2nadD2yHoeO07dHOy7tORjR7sa9HRFe3YrlCC4Ceiyz0BJoHFBBsGIYOo7Ybp-GGeu27mdR2A2dez7sZlK5Cf5xrAbskWKfB8aqYl2nFHpxHGbllm0boDHFBez6pj0bGNb7QWdfJ2BKfFmHjdN7xzZRh7rfZzHPvuXZ1nVvmXY2t3Qb1sWoaNuGEb92WA9ZoPXplbmpj-C5nYB0ngfdz3E-95OZaZy3FczzGLguGUpnrgviZjsm449_X9rLmmK7NtP5cDp7g9tz7IqdqPC6F3XO4T6nJZN6X-6rhWlcxq4AGE9A3ie_s11329Fg2vd7qWU6Ri3V9r23tj-E4Pr0FurLb4uO9L-efaX1OV6Hm27b0e4JwpjrCfgLF-wsS5d0NuXM-ldL6_xHljI4DteZ72jtrQ-8dj49wXr7C-6crbD2VnoHGVxd5E3kP1Qaw0eCzwNpNJIPgZqjSwCoOoq0p6xycHJXyOVPJsnirw9y_Dl7wIzkQzG71PrfVAVrIuECO48OiHwvKOhBHKOEao7-YjCF_2xnjVBFCwEYNftwhKXAVFeVgOoixmirH4MHuIv-nNuaGP3uAmeSjbFpSsTYyxbIHHVzXqPR2AZI5oM4Zg2AXj_FqPMbE7RBCa4SJCQ7ch7iTEKLMUInxAj4l2ICf7RxujEGh3DuEiholSAAG4gA
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-gl/2/files/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-stat/latest/files/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/4.9.0/files/map/js/china.js"></script>
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/4.9.0/files/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, 'dark', {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  legend: {},
+  tooltip: {},
+  dataset: {
+    source: [
+      ['country', 'Functional assignment', 'Political institutions', 'Administrative institutions', 'Fiscal institutions', 'Participation and accountability', 'Total score'],
+      ['Bangladesh', 4.13, 3.09, 3.27, 4.76, 3.49, 19.74],
+      ['Ethiopia', 2.74, 3.07, 3.21, 2.44, 3.1, 14.56],
+      ['Ghana', 3.17, 3.77, 4.76, 2.99, 1.41, 15.4],
+      ['India', 2.27, 4.6, 4.43, 4.2, 3.88, 19.38],
+      ['Indonesia', 4.89, 2.04, 3.62, 4.04, 1.05, 15.64],
+      ['Kenya', 1.03, 2.41, 2.32, 3.08, 3.36, 12.2],
+      ['Mozambique', 3.72, 3.64, 3.36, 3.19, 2.77, 16.68],
+      ['Pakistan', 4.29, 4.03, 2.16, 2.22, 2.26, 15.96],
+      ['Philippines', 4.62, 3.58, 4.28, 4.99, 1.18, 18.65],
+      ['Rwanda', 2.12, 2.26, 2.25, 2.06, 3.29, 12.98],
+      ['Senegal', 2.98, 3.86, 3.81, 3.36, 2.82, 16.83],
+      ['Sri Lanka', 4.64, 2.1, 2.69, 2.44, 2.88, 14.75],
+      ['Tanzania', 1.67, 1.38, 2.9, 3.02, 3.11, 11.08],
+      ['Zambia', 1.72, 2.99, 0.81, 2.7, 0.48, 8.7]
+    ]
+  },
+  
+
+  xAxis: [
+    { type: 'category', gridIndex: 0 },
+    { type: 'category', gridIndex: 1, axisLabel: { rotate: 45 }  }
+  ],
+  yAxis: [{ gridIndex: 0 }, { gridIndex: 1 }],
+  grid: [{ bottom: '55%' }, { top: '55%' }],
+  series: [
+    // These series are in the first grid.
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#80FFA5' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#00DDFF' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#37A2FF' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#FF0087' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#FFBF00' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#FF6347' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#8A2BE2' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#228B22' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#FF4500' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#7CFC00' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#1E90FF' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#FF69B4' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#00BFFF' } },
+    { type: 'bar', seriesLayoutBy: 'row', itemStyle: { color: '#FFD700' } },
+    // These series are in the second grid.
+    { type: 'bar', xAxisIndex: 1, yAxisIndex: 1, itemStyle: { color: '#80FFA5' } },
+    { type: 'bar', xAxisIndex: 1, yAxisIndex: 1, itemStyle: { color: '#00DDFF' } },
+    { type: 'bar', xAxisIndex: 1, yAxisIndex: 1, itemStyle: { color: '#37A2FF' } },
+    { type: 'bar', xAxisIndex: 1, yAxisIndex: 1, itemStyle: { color: '#FF0087' } },
+    { type: 'bar', xAxisIndex: 1, yAxisIndex: 1, itemStyle: { color: '#FFBF00' } },
+    { type: 'bar', xAxisIndex: 1, yAxisIndex: 1, itemStyle: { color: '#FF6347' } },
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
